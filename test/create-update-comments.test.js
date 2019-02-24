@@ -3,7 +3,7 @@ import CommentsDAO from "../src/dao/commentsDAO"
 import MoviesDAO from "../src/dao/moviesDAO"
 
 const testUser = {
-  name: "foobar",
+  name: "foobar11111111111111",
   email: "foobar@baz.com",
 }
 
