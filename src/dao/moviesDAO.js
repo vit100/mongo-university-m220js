@@ -399,6 +399,14 @@ export default class MoviesDAO {
       When this specific error is thrown, the method should return `null`.
       */
 
+      if (
+        e.message.indexOf(
+          "Argument passed in must be a single String of 12 bytes or a string of 24 hex",
+        ) >= 0
+      ) {
+        console.error(e)
+        return null
+      }
       // TODO Ticket: Error Handling
       // Catch the InvalidId error by string matching, and then handle it.
       console.error(`Something went wrong in getMovieByID: ${e}`)
