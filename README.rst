@@ -1,4 +1,10 @@
 =====
+Completed assigments for Mongo university course M220JS
+=====
+Clone it, run it, browse codes.
+
+
+=====
 Mflix
 =====
 
